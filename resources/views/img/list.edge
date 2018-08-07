@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Example Adonis</title>
+  {{ style('style') }}
+  {{ style('img/list') }}
+</head>
+<body>
+  <h1>Example Adonis</h1>
+  <p>random images app</p>
+  <section>
+    @each(imgData in getRandomImgList())
+      <div>
+        <a href="img?id={{ imgData.id }}">
+          <img src="{{ imgData.src }}" alt="" />
+        </a>
+      </div>
+    @endeach
+  </section>
+</body>
+</html>

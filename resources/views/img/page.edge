@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Example Adonis</title>
+  {{ style('style') }}
+  {{ style('img/page') }}
+</head>
+<body>
+  <section>
+    <img src="{{ getImg(request.get().id) }}" alt="" />
+  </section>
+</body>
+</html>

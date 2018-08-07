@@ -1,0 +1,31 @@
+h1, p {
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+}
+
+p {
+  text-decoration: underline;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;;
+}
+
+div {
+  width: 220px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
